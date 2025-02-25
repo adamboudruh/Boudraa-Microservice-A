@@ -26,7 +26,7 @@ fs.watch(moodPath, async (eventType) => {
         // split data into two by space, first is mood second is number of songs
         const [mood, numSongs] = data.split(' ');
 
-        let page = Math.floor(Math.random() * 31) + 5;
+        let page = Math.floor(Math.random() * 21) + 5;
         // let page = 1;
         let url = `http://ws.audioscrobbler.com/2.0/?method=tag.getTopTracks&tag=${mood}&api_key=${API_KEY}&format=json&page=${page}&limit=${numSongs}`;
 
