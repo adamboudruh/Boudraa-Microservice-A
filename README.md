@@ -1,13 +1,12 @@
 # Boudraa-Microservice-A
 
-
 ## How to programmatically request data
 To request data, all that you need to do is ensure that playlist.js is running and then write to the file mood.txt the mood and the number of songs you'd like to request. Format of request is 
 ```
 <mood (one word)> <number of songs (between 1 and 30)>
 ```
 
-To run playlist.js, if you don't have node.js installed you can install it at this link: https://nodejs.org/en/download . With that installed, just type `npm run playlist` into another terminal and it should display "Listening to mood.txt".
+To run playlist.js, if you don't have node.js installed you can install it at this link: https://nodejs.org/en/download . With that installed, just type `npm i` to install the necessary packages, and then `npm run playlist` into another terminal and it should display "Listening to mood.txt".
 
 Example call:
 ```
